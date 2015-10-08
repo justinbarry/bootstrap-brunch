@@ -1,0 +1,20 @@
+{
+  "name": "move-fonts-brunch",
+  "version": "0.0.1",
+  "description": "Move bootstrap font files in the right place.",
+  "main": "./lib/index",
+  "license": "BSD",
+  "dependencies": {
+    "mv": "^2.1.1"
+  },
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinbarry/move-fonts-brunch"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}
